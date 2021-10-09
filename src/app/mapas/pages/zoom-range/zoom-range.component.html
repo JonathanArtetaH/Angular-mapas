@@ -12,7 +12,7 @@
     </div>
     <div class="col-12">
         <button (click)="zoomOut()" class="btn btn-primary">-</button>
-        <label class="form-label p-2">zoom: {{zoomLeave | number:'2.0-3'}} | log - lat [1213,12312]</label>
+        <label class="form-label p-2">zoom: {{zoomLeave | number:'2.0-3'}} | log - lat [{{cordenadas[0] | number:'2.4-4' }} - {{cordenadas[1] | number:'2.4-4' }}]</label>
         <button (click)="zoomInt()" class=" btn btn-primary float-end">+</button>
     </div>
 </div>
